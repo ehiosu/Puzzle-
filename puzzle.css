@@ -1,0 +1,29 @@
+.box{
+  border:4px solid #f4a261;
+  text-allign:center;
+  margin-left:400px;
+  margin-right:300px;
+  padding: 20px;
+  background-color: white;
+  color:black;
+}
+.jumbotron{
+  background-color: #264653;
+  color:white;
+}
+.textbox:hover{
+animation-name: scaler;
+animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+
+}
+
+@keyframes scaler {
+  from{
+    transform: scaleX();
+  }
+  to {
+    transform: scaleX(100px);
+  }
+}
